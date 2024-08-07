@@ -4,4 +4,5 @@ version = "0.1.0"
 edition = "2021"
 
 [dev-dependencies]
-dep-outer = { workspace = true }
+# dep-outer = { workspace = true }
+dep-outer = { path = "../dep-outer" }
