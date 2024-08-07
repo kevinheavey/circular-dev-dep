@@ -4,5 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dev-dependencies]
+# if you use a workspace dep, `cargo publish`
+# will fail because it hasn't been published
 # dep-outer = { workspace = true }
+
+# but `cargo publish` is fine if
+# it's a path dep here
 dep-outer = { path = "../dep-outer" }
