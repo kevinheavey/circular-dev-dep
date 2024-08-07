@@ -2,6 +2,8 @@
 name = "dep-inner"
 version = "0.1.0"
 edition = "2021"
+description = "Example of an inner crate in a circular dev dep system"
+license = "MIT"
 
 [dev-dependencies]
 # if you use a workspace dep, `cargo publish`
