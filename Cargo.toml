@@ -1,0 +1,6 @@
+[workspace]
+members = ["dep-inner", "dep-outer"]
+
+[workspace.dependencies]
+dep-inner = { path = "dep-inner", version = "0.1.0" }
+dep-outer = { path = "dep-outer", version = "0.1.0" }
