@@ -2,6 +2,8 @@
 name = "dep-outer"
 version = "0.1.0"
 edition = "2021"
+description = "Example of an outer crate in a circular dev dep system"
+license = "MIT"
 
 [dependencies]
 dep-inner = { workspace = true }
