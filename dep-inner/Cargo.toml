@@ -12,4 +12,7 @@ license = "MIT"
 
 # but `cargo publish` is fine if
 # it's a path dep here
-dep-outer = { path = "../dep-outer" }
+# dep-outer = { path = "../dep-outer" }
+
+# try using a git dep
+dep-outer = { git = "https://github.com/kevinheavey/circular-dev-dep.git" }
